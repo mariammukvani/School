@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOLMISSION</title>
+    <script src="https://use.fontawesome.com/f8a339e902.js"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <header>
+        <header class="about-header">
+            <nav class="navigation">
+                <a href="index.html"> <img class="school-logo" src="images/logoo.png" alt="Logo"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">მთავარი</a></li>
+                        <li> <a href="prices.html">გალერეა</a></li>
+                        <li> <a href="mission.html">მისია</a></li>
+                        <li> <a href="about.html">ჩვენს შესახებ</a></li>
+                        <li><a href="contact.html">კონტაქტი</a></li>
+                    </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    </header>
+
+    
+
+
+
+
+
+    
+    <!-- sectionnnnn footer -->
+    <footer class="footer">
+        <p>აირჩიე SmartSchool უკეთესი მომავლისთვის!</p>
+        <div class="icons">
+            <a href="add.html"><i class="fa fa-instagram"></i></a>            <a href="https://www.facebook.com/mariam.mukvani.3/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <p>Made by Mariam Mukvani </p>
+    </footer>
+
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+    </script> 
+</body>
+</html>

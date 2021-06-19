@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SmartSchool</title>
+     <script src="https://use.fontawesome.com/f8a339e902.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="about-header">
+        <nav class="navigation">
+            <a href="index.html"> <img class="school-logo" src="images/logoo.png" alt="Logo"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">მთავარი</a></li>
+                    <li> <a href="prices.html">გალერეა</a></li>
+                    <li> <a href="mission.html">მისია</a></li>
+                    <li> <a href="about.html">ჩვენს შესახებ</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>დაგვიკავშირდით</h1>
+    </section>
+
+    <!-- რუკის სექცია -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190556.07402124422!2d44.6987669502949!3d41.732630406721995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1622581929062!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>#240 დავით აღმაშენებლის ხეივანი, Tbilisi 0159</h5>
+                        <p>Georgia, Tbilisi ,Ge</p>
+                    </span> 
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 02777 8789 557</h5>
+                        <p>Monday to sunday, 10AM to 8PM</p>
+                    </span> 
+                </div>
+                <div>
+                    <i class="fa fa-envilope-o"></i>
+                    <span>
+                        <h5>info@hshshs.com</h5>
+                        <p>Email us to query</p>
+                    </span> 
+                </div>
+            </div>
+        <div class="contact-col">
+
+             <form action="form-handler.php" method="POST">
+                <Input type="text" name="name" placeholder="Enter your name" required></Input>
+                <Input type="email" name="email" placeholder="Enter Email adress" required></Input>
+                <Input type="text" name="subject" placeholder="Enter your subject" required></Input>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+        </div>
+        </div>
+    </section>
+
+    <!-- sectionnnnn footer -->
+    <footer class="footer">
+        <p>აირჩიე SmartSchool უკეთესი მომავლისთვის!</p>
+        <div class="icons">
+            <a href="add.html"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/mariam.mukvani.3/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <p>Made by Mariam Mukvani </p>
+    </footer>
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+        
+    </script>
+</body>

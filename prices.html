@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSchool</title>
+    <script src="https://use.fontawesome.com/f8a339e902.js"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <header class="Header">
+        <nav class="navigation">
+            <a href="index.html"> <img class="school-logo" src="images/logoo.png" alt="Logo"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">მთავარი</a></li>
+                    <li> <a href="prices.html">ფასები</a></li>
+                    <li> <a href="mission.html">მისია</a></li>
+                    <li> <a href="about.html">ჩვენს შესახებ</a></li>
+                    <li><a href="contact.html">კონტაქტი</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <div class="text-box">
+            <h1 class="welcome-text">მოგესალმებით!</h1>
+            <p>SMARTSCHOOL არის თანამედროვე სტანდარტების შესაბამისი სასწავლო დაწესებულება,რომელიც შეესაბამება უცხოურ სტანდარტებს<br>აევე ჩვენ მოსწავლეებს ხელს ვუწყობთ მიაღწიონ დიდ წარმატებს საუკეთესო კოლექტივის დახმარებით!
+            </p>   
+            <a href="about.html" class="hero-btn">გაიგეთ მეტი ჩვენზე</a>
+        </div>
+    </header>
+
+        <!-- კურსები -->
+        <section class="section2">
+          <div class="Stages">
+            <h1>სისტემა რომელსაც გთავაზობთ</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+            <div class="row">
+                <div class="class-col">
+                    <h3>დაწყებითი საფეხური</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit odit quas porro, illum esse eveniet velit officiis dolorem dolores. Explicabo quaerat optio repudiandae recusandae ex praesentium hic. Cumque, laborum!</p>
+                </div>
+                <div class="class-col">
+                    <h3>საბაზო საფეხური</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit odit quas porro, illum esse eveniet velit officiis dolorem dolores. Explicabo quaerat optio repudiandae recusandae ex praesentium hic. Cumque, laborum!</p>
+                </div>
+                <div class="class-col">
+                    <h3>საშუალო საფეხური</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit odit quas porro, illum esse eveniet velit officiis dolorem dolores. Explicabo quaerat optio repudiandae recusandae ex praesentium hic. Cumque, laborum!</p>
+                </div>
+            </div> 
+           </div> 
+        </section>
+    <!-- ტერიტორიაა -->
+    <section class="section3">
+        <div class="school">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="school-col">
+                    <img src="images/forkids.jpg" alt="playground">
+                    <div class="layer">
+                        <h3>PLAYGROUND</h3>
+                    </div>
+                </div>
+                <div class="school-col">
+                    <img src="images/school1.jpg" alt="school">
+                    <div class="layer">
+                        <h3>ENTRANCE</h3>
+                    </div>
+                </div>
+                <div class="school-col">
+                    <img src="images/library.jpg" alt="library">
+                    <div class="layer">
+                        <h3>LIBRARY</h3>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+   
+
+    <!-- ჩვენი დამაარსებელი -->
+    
+                      
+
+    <!-- sectionnnnn footer -->
+    <footer class="footer">
+        <p>აირჩიე SmartSchool უკეთესი მომავლისთვის!</p>
+        <div class="icons">
+            <a href="add.html"><i class="fa fa-instagram"></i></a>            <a href="https://www.facebook.com/mariam.mukvani.3/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <p>Made by Mariam Mukvani </p>
+    </footer>
+
+
+
+
+
+
+
+    
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+</body>
+</html>
