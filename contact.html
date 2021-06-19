@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>SmartSchool</title>
-     <script src="https://use.fontawesome.com/f8a339e902.js"></script>
+    <title>SmartSchool</title>
+    <script src="https://use.fontawesome.com/f8a339e902.js"></script>
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 </head>
 <body>
-    <section class="about-header">
+    <section class="about-header-us">
         <nav class="navigation">
             <a href="index.html"> <img class="school-logo" src="images/logoo.png" alt="Logo"> </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li> <a href="index.html">მთავარი</a></li>
-                    <li> <a href="prices.html">გალერეა</a></li>
+                    <li> <a href="gallery.html">გალერეა</a></li>
                     <li> <a href="mission.html">მისია</a></li>
                     <li> <a href="about.html">ჩვენს შესახებ</a></li>
                     <li><a href="contact.html">კონტაქტი</a></li>
@@ -23,13 +25,13 @@
             </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>დაგვიკავშირდით</h1>
     </section>
+        
+        <h1 class="contact-us">დაგვიკავშირდით</h1>
 
     <!-- რუკის სექცია -->
     <section class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190556.07402124422!2d44.6987669502949!3d41.732630406721995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1622581929062!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
     </section>
     <section class="contact-us">
         <div class="row">
@@ -44,21 +46,21 @@
                 <div>
                     <i class="fa fa-phone"></i>
                     <span>
-                        <h5>+1 02777 8789 557</h5>
-                        <p>Monday to sunday, 10AM to 8PM</p>
+                        <h5>598 784 915</h5>
+                        <p>ორშაბათი-პარასკევი, 8AM to 8PM</p>
                     </span> 
                 </div>
                 <div>
-                    <i class="fa fa-envilope-o"></i>
+                    <i class="fa fa-envelope-o"></i>
                     <span>
-                        <h5>info@hshshs.com</h5>
-                        <p>Email us to query</p>
+                        <h5>SmartSchool@gmail.com</h5>
+                        <p>Email us for info</p>
                     </span> 
                 </div>
             </div>
         <div class="contact-col">
 
-             <form action="form-handler.php" method="POST">
+            <form action="form-handler.php" method="POST">
                 <Input type="text" name="name" placeholder="Enter your name" required></Input>
                 <Input type="email" name="email" placeholder="Enter Email adress" required></Input>
                 <Input type="text" name="subject" placeholder="Enter your subject" required></Input>
