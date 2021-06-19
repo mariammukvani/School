@@ -207,7 +207,6 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-
 /* სექცია 4 */
 .body-mission{
     min-height: 100vh;
@@ -291,7 +290,6 @@ h3{
     border: 3px dotted rgb(97, 84, 139);
     border-radius: 10px;
 }
-
 .flex-div img:hover{
     animation: shakeImg 0.3s;
     animation-iteration-count:1 ;
@@ -395,7 +393,28 @@ h3{
 .gallery-div img{
     border-radius: 20px;
 }
-
+/* ტექსტი--mission  */
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding:58px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: black;
+    font-weight: 600;
+    margin: 30px 0 ;
+    font-family: 'MG Glaho Drunk';
+}
+.blog-left p{
+    padding: 0;
+    color: black;
+}
 /* location mail contact */
 .location{
     width: 80%;
