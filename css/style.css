@@ -426,9 +426,7 @@ h3{
 }
 .contact-us{
     font-family: 'MG Glaho Drunk';
-    font-size: 40px;
     text-align:center;
-    padding-top: 20px;
     color: crimson;
 }
 .contact-us{
@@ -443,6 +441,7 @@ h3{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 .contact-col div .fa{
     font-size: 28px;
@@ -455,11 +454,11 @@ h3{
     font-family: 'BPG Phone Sans Bold';
 }
 .contact-col div h5{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
     color: rgb(24, 22, 22);
     font-weight: 400;
-    font-family: 'MG Glaho Drunk';
+    font-family: 'BPG Phone Sans Bold';
 }
 .contact-col input, .contact-col textarea{
     width: 100%;
